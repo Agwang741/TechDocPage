@@ -1,0 +1,56 @@
+/* td-style.css 09-11-2020 */
+
+/* Navigation links */
+.nav-link{
+    text-decoration: none;
+    color: #663399;
+    margin: 10px;
+}
+
+/* Center Website text */
+.responsive{
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+#nav-bar{
+    text-align:center;
+}
+
+@media (max-width:799px){
+    h1{font-size:24px}
+    h2{font-size:20px}
+    h3{font-size:18px}
+    h4{font-size:16px}
+    h5{font-size:16px}
+    h6{font-size:16px}
+    p{font-size:16px}
+    .li-inline {
+        display: inline-block;
+    }
+    .ul-nobullet {
+        list-style-type: none;
+    }
+    .btd-hide-small{display:none!important}
+}
+@media (min-width:800px){
+    #box-container {
+        display: flex;
+    }
+    #box-1 {
+        float:left;
+        width: 25%;
+        height: 100%;
+        position: fixed;
+    }
+    #box-2 {
+        margin-left: 25%;
+        width: 75%;
+        height: 100%;
+    }
+    .ul-nobullet {
+        list-style-type: none;
+    }
+}

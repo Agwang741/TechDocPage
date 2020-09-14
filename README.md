@@ -1,0 +1,2 @@
+# TechDocPage
+This project uses HTML and CSS. It contains the (header), (nav), (main), and (section) elements. Within the main section are the (li), (code), and (a) elements as well. In addition, the location of the navigation bar should change between larger and smaller screens.
